@@ -16,6 +16,11 @@ const nextConfig = {
   generateEtags: true,
   // Güvenlik için powered by header'ı kaldır
   poweredByHeader: false,
+  // Add proper error handling
+  experimental: {
+    // Enable new features safely
+    serverActions: true,
+  }
 };
 
 module.exports = nextConfig; 
