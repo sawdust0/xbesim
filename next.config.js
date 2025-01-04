@@ -11,8 +11,9 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // Static export için
-  trailingSlash: true,
+  // Optimize build process
+  compress: true,
+  generateEtags: true,
   // Güvenlik için powered by header'ı kaldır
   poweredByHeader: false,
 };
