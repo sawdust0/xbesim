@@ -11,12 +11,6 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  experimental: {
-    // Server actions için limit
-    serverActions: {
-      bodySizeLimit: '2mb',
-    },
-  },
   // Static export için
   trailingSlash: true,
   // Güvenlik için powered by header'ı kaldır
