@@ -1,0 +1,27 @@
+{
+  "name": "BesiAPP",
+  "short_name": "BesiAPP",
+  "description": "Büyükbaş hayvan yönetimi ve optimizasyonu için kapsamlı çözüm",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#4F46E5",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait",
+  "categories": ["business", "productivity", "utilities"],
+  "lang": "tr-TR",
+  "dir": "ltr"
+} 
